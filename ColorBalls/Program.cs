@@ -22,11 +22,11 @@ namespace ColorBalls
             Console.WriteLine($"Ball 1 has {color1.GetBlueValue()} of blue |");
             Console.WriteLine($"Ball 1 has {color1.GetAlphaValue()} of transparency");
             Console.WriteLine($"Ball 1 has been thrown {ball1.GetNumberOfTimesThrown()} times");
-            Console.Write($"Ball 1 has {color2.GetRedValue()} of red |");
-            Console.Write($"Ball 1 has {color2.GetGreenValue()} of green |");
-            Console.Write($"Ball 1 has {color2.GetBlueValue()} of blue |");
-            Console.WriteLine($"Ball 1 has {color2.GetAlphaValue()} of transparency");
-            Console.WriteLine($"Ball 1 has been thrown {ball2.GetNumberOfTimesThrown()} times");
+            Console.Write($"Ball 2 has {color2.GetRedValue()} of red |");
+            Console.Write($"Ball 2 has {color2.GetGreenValue()} of green |");
+            Console.Write($"Ball 2 has {color2.GetBlueValue()} of blue |");
+            Console.WriteLine($"Ball 2 has {color2.GetAlphaValue()} of transparency");
+            Console.WriteLine($"Ball 2 has been thrown {ball2.GetNumberOfTimesThrown()} times");
 
 
         }
