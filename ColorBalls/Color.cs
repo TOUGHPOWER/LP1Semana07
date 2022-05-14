@@ -4,10 +4,10 @@ namespace ColorBalls
 {
     public class Color
     {
-        private int redColorValue;
-        private int greenColorValue;
-        private int blueColorValue;
-        private int alphaValue;
+        private readonly int redColorValue;
+        private readonly int greenColorValue;
+        private readonly int blueColorValue;
+        private readonly int alphaValue;
         
 
         public Color(int theRedValue, int theGreenValue, int theBlueValue, int theAlphaValue)
@@ -28,19 +28,19 @@ namespace ColorBalls
 
         public int GetRedValue() => redColorValue;
 
-        public int SetRedValue(int theRedValue) => redColorValue = theRedValue;
+        
 
         public int GetGreenValue() => greenColorValue;
 
-        public int SetGreenValue(int theGreenValue) => greenColorValue = theGreenValue;
+        
 
         public int GetBlueValue() => blueColorValue;
 
-        public int SetBlueValue(int theBlueValue) => blueColorValue = theBlueValue;
+        
 
         public int GetAlphaValue() => alphaValue;
 
-        public int SetAlphaValue(int theAlphaValue) => alphaValue = theAlphaValue;
+        
 
         public int GetGreyScale() => (redColorValue + greenColorValue + blueColorValue)/3;
 
